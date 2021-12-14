@@ -1,5 +1,6 @@
 package one.digitalinnovation.personapi.service;
 
+import antlr.collections.List;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
 import one.digitalinnovation.personapi.entity.Person;
@@ -8,7 +9,6 @@ import one.digitalinnovation.personapi.mapper.PersonMapper;
 import one.digitalinnovation.personapi.repository.PersonRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
